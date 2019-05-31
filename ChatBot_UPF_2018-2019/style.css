@@ -1,0 +1,117 @@
+
+body {
+    background-color: #293133;
+    font-size: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-style: oblique;
+    #background: linear-gradient(blue 50%, white);
+    #color: aliceblue;
+}
+
+.container-text {
+    display: block;
+    width: 60%;
+    height: 500px;
+    margin: 10px auto;
+    border: 6px solid gray;
+    overflow: auto;
+}
+/*
+.container-input {
+    width: 60%;
+    height: 100px;
+    margin: 0px auto;
+    border: 6px solid blue;
+    border-radius: 300px;
+    overflow: hidden;
+}
+*/
+.container-form {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    background-color: #ccc;
+}
+
+.container_user,
+.container_bot {
+    display: block;
+}
+
+.container_user {
+    margin-left: 20px;
+}
+
+.container_bot {
+    margin-right: 20px;
+}
+
+.input_message {
+    padding:8px;
+    display:block;
+    border:none;
+    border-bottom:1px solid #ccc;
+    width:100%
+}
+
+
+/************/
+
+.conversation_gris {
+    width: 90%;
+    background-color: rgb(240, 240, 240);
+    color: black;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 10px;
+}
+.conversation_bleu {
+    background-color: rgb(0, 127, 255);
+    color: white;
+    border: 1px solid rgb(0, 127, 255);
+    border-radius: 10px;
+    text-align: right;
+    float: right;
+}
+.conversation_noir_bot {
+    width: 90%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+}
+.conversation_noir_user {
+    position: relative;
+    float: right;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+}
+
+.avatar_user,
+.avatar_bot {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.avatar_user {
+    float: right;
+    background-image: url("assets/user.png");
+}
+
+.avatar_bot {
+    background-image: url("assets/bot.png");
+}
+
+form {
+    margin: 30px auto;
+}
